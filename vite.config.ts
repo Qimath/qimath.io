@@ -6,7 +6,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/qimath.io/',
+  base: 'https://qimath.github.io/qimath.io/',
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
